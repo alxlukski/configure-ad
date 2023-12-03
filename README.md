@@ -84,25 +84,41 @@ Finish.
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/alxlukski/configure-ad/assets/150772204/68043074-0708-40e4-a9cc-da5327cdfbfc)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this screenshot, we log into the domain controller that we created, then enable ICMPv4 on the local firewall.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/alxlukski/configure-ad/assets/150772204/b4a632ab-7587-42a1-a592-5538aa3895a0)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this screenshot, we install Active Directory Domain Services inside of the Domain Controller, and set up a forest as domain.com, then we create an Organizational Unit for users and admins inside of it.
+</p>
+<br />
+
+<p>
+![image](https://github.com/alxlukski/configure-ad/assets/150772204/2ca4a4a5-7e20-4c64-aa22-c64820dd2766)
+</p>
+<p>
+In this screenshot, we set the clients DNS settings to the Domain Controller's private IP address, so that we can join the client to the domain.
+</p>
+<br />
+
+<p>
+![image](https://github.com/alxlukski/configure-ad/assets/150772204/9156ff34-c883-4434-bf4f-b7963740a006)
+</p>
+<p>
+In this screenshot, we create and run a script inside of Windows PowerShell ISE in administrator mode in order to create new users inside of the Active Directory.
+</p>
+<br />
+
+<p>
+![image](https://github.com/alxlukski/configure-ad/assets/150772204/830e03b2-fa83-492a-ba51-71e1841c5024)
+</p>
+<p>
+In this screenshot, we log into one of the users that we created in the Active Directory, from Client-1, using domain.com.
 </p>
 <br />
